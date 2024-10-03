@@ -1,0 +1,25 @@
+public class NoOfOccurance {
+
+	public static void main(String[] args) {
+		String str="madam";
+		char ch='a';
+		
+		int c=noc(str,ch);
+		System.out.println(c);
+	}
+			
+		public static int noc(String str, char ch) {
+			int result=0;
+			for(int i=0;i<str.length();i++) {
+				
+				if(str.charAt(i)==ch) {
+					
+					result++;
+				}
+				
+			}
+			return result;
+	}
+	
+}
+
