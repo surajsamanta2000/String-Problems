@@ -1,0 +1,22 @@
+public class StringPalindrome {
+
+	public static void main(String[] args) {
+		String str="madam";
+		System.out.println(isPalindrome(str));
+
+	}
+
+	private static boolean isPalindrome(String str) {
+		char []ch=str.toCharArray();
+		int i=0,j=str.length()-1;
+		
+		while(i<j) {
+			if(ch[i]!=ch[j])return false;
+			i++;
+			j--;
+			
+		}
+		return true;
+	}
+
+}
