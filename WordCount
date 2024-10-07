@@ -1,0 +1,15 @@
+package com.ss.StringProgramms;
+
+public class WordCount {
+
+	public static void main(String[] args) {
+		
+		String str="Hello My Friend";
+		
+		String arr[]=str.trim().split(" ");
+		
+		System.out.println(arr.length);
+
+	}
+
+}
